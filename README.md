@@ -73,7 +73,7 @@ Following hyperparameters can be passed to `train.py`
 Throughout all our experiments, we deliberately avoid the use of any extra node features to exclusively assess the benefits of employing structural information.
 Default is True. 
 
-`--n_samples`: Number of samples from latent distribution of stoichiometry ($J$ in Equation 4). Default is 8.
+`--n_samples`: Number of samples from latent distribution of composition ($J$ in Equation 4). Default is 8.
 
 `--negative scale` : Initial value for learnable parameter for scaling Euclidean distance ($c$ in Equation 4). Default is 20.
 
