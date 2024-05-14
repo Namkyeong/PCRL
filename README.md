@@ -8,7 +8,7 @@ However, accurately representing materials solely with compositional descriptors
 To this end, we introduce PCRL, a novel approach that employs probabilistic modeling of composition to capture the diverse polymorphs from available structural information.
 Extensive evaluations on sixteen datasets demonstrate the effectiveness of PCRL in learning compositional representation, and our analysis highlights its potential applicability of PCRL in material discovery.
 
-<img src="assets/model.pdf" width="70%"></img> 
+<img src="assets/model.png" width="70%"></img> 
 
 **Overall model architecture. While the structural graph encoder obtains a deterministic structural representation of crystal, the probabilistic composition encoder learns to represent each composition as a parameterized probabilistic distribution by acquiring mean and diagonal covariance matrices.Both encoders are jointly trained with soft contrastive loss in representation space.**
 
