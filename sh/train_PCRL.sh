@@ -1,0 +1,2 @@
+cd ../
+python main.py --embedder PCRL --lr 5e-5 --sto_gnns GCN --sto_layers 3 --shift 20 --negative_scale 20 --no_node_feature --batch_size 256 --epochs 100 --eval_freq 10 --es 100 --device 1 --normalize --writer --pretrain --clip --grad_clip --save_checkpoints
