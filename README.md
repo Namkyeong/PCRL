@@ -20,6 +20,7 @@ Extensive evaluations on sixteen datasets demonstrate the effectiveness of PCRL 
 - pymatgen 2022.0.17
 - mendeleev 0.7.0
 ```
+It requires 10 mins to setup the environment.
 
 ## Data Preparation
 
@@ -47,6 +48,8 @@ We converted raw files to `mp.pkl` file and made create training data with `buil
 
 
 ### To train the model
+
+It takes 8 hours for pre-training the model.
 
 **[Option 1]** Train model with shell script
 ```
