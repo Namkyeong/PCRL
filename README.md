@@ -1,12 +1,9 @@
-# Learning Probabilistic Compositional Representation of Materials
+# Compositional Representation of Polymorphic Crystalline Materials
 
+The official source code for [Compositional Representation of Polymorphic Crystalline Materials](https://arxiv.org/html/2312.13289v2).
 
 ## Overview
-Machine learning (ML) has seen promising developments in materials science, yet its efficacy largely depends on detailed crystal structural data, which are often complex and hard to obtain, limiting their applicability in real-world material synthesis processes. 
-An alternative, using compositional descriptors, offers a simpler approach by indicating the elemental ratios of compounds without detailed structural insights. 
-However, accurately representing materials solely with compositional descriptors presents challenges due to polymorphism, where a single composition can correspond to various structural arrangements, creating ambiguities in its representation.
-To this end, we introduce PCRL, a novel approach that employs probabilistic modeling of composition to capture the diverse polymorphs from available structural information.
-Extensive evaluations on sixteen datasets demonstrate the effectiveness of PCRL in learning compositional representation, and our analysis highlights its potential applicability of PCRL in material discovery.
+Machine learning (ML) has seen promising developments in materials science, yet its efficacy largely depends on detailed crystal structural data, which are often complex and hard to obtain, limiting their applicability in real-world material synthesis processes. An alternative, using compositional descriptors, offers a simpler approach by indicating the elemental ratios of compounds without detailed structural insights. However, accurately representing materials solely with compositional descriptors presents challenges due to polymorphism, where a single composition can correspond to various structural arrangements, creating ambiguities in its representation. To this end, we introduce PCRL, a novel approach that employs probabilistic modeling of composition to capture the diverse polymorphs from available structural information. Extensive evaluations on sixteen datasets demonstrate the effectiveness of PCRL in learning compositional representation, and our analysis highlights its potential applicability of PCRL in material discovery.
 
 <img src="assets/model.png" width="70%"></img> 
 
