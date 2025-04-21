@@ -25,6 +25,9 @@ It requires 10 mins to setup the environment.
 We build training dataset consists of the materials and its properties which are collected from [Materials Project](https://materialsproject.org/).
 We converted raw files to `mp.pkl` file and made create training data with `build_train_data.py` file.
 
+You can also download the mp.pkl file in the following link:
+
+https://drive.google.com/drive/folders/1p_uFvd3QX0qrnJQLjbIysRqZCl9-Ge7_?usp=drive_link
 
 ### Test dataset
 
